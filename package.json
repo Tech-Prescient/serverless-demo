@@ -1,0 +1,20 @@
+{
+  "name": "image-upload-slack-alert",
+  "version": "1.0.0",
+  "description": "Serverless demo to send slack alert when image is uploaded to S3",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David A",
+  "license": "ISC",
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.3.0",
+    "serverless-plugin-optimize": "^4.2.1-rc.1"
+  }
+}
