@@ -1,0 +1,28 @@
+{
+  "name": "audry-redirect-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audry-io/audry-redirect-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audry-io/audry-redirect-service/issues"
+  },
+  "homepage": "https://github.com/audry-io/audry-redirect-service#readme",
+  "devDependencies": {
+    "serverless": "^2.51.2",
+    "serverless-offline": "^7.0.0",
+    "serverless-plugin-optimize": "^4.2.1-rc.1"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.6"
+  }
+}
